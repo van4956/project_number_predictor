@@ -122,3 +122,5 @@ celerybeat.pid
 number_predictor.exe
 training/
 testing/
+подсказка.txt
+*.png
