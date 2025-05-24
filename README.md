@@ -19,15 +19,13 @@ A simple Python project with a graphical interface for recognizing hand-drawn di
 ```
 Project_Number_predictor/
 ├── model/
-│ ├── train_model.py # model training
-│ ├── dataset.py # dataset processing
-│ ├── not_digit.py # forming the "NOT a digit" class
-│ └── mnist_cnn.pth # model weights
+│ ├── train_model.py             # model training
+│ ├── dataset.py                 # dataset processing
+│ ├── not_digit.py               # forming the "NOT a digit" class
+│ └── mnist_cnn.pth              # model weights
 ├── app/
-│ ├── draw_app.py # GUI drawing app
-│ └── predictor.py # image prediction function
-├── training/
-├── testing/
+│ ├── draw_app.py                # GUI drawing app
+│ └── predictor.py               # image prediction function
 └── requirements.txt
 ```
 
@@ -37,7 +35,7 @@ Project_Number_predictor/
 ## 🚀 Launch
 
 - To run from source — use the command  `python app/draw_app.py`
-- To run without Python — use the built executable file `number_predictor.exe`
+- To run without Python — save and use the built executable file [`number_predictor.exe`](https://drive.google.com/file/d/1h1PbQLfciJQZYhtF4bbkEOiOkuDJ2M_J/view?usp=drive_link)  (Google Drive)
 
 ---
 
@@ -64,4 +62,4 @@ Trained on a PNG dataset extended from MNIST:
 
 ## GUI
 
-![GUI](image_app.jpg)
+<img src="image_app.jpg" alt="GUI" width="400"/>
