@@ -28,8 +28,6 @@ Project_Number_predictor/
 ├── app/
 │ ├── draw_app.py           # GUI-рисовалка
 │ └── predictor.py          # функция предсказание по изображению
-├── training/
-├── testing/
 └── requirements.txt
 ```
 
@@ -38,8 +36,8 @@ Project_Number_predictor/
 
 ## 🚀 Запуск
 
-- Для запуска из исходников — используй команду  'python app/draw_app.py'
-- Для запуска без Python — используй собранный файл 'number_predictor.exe'
+- Для запуска из исходников — используй команду  `python app/draw_app.py`
+- Для запуска без Python — скачай и запусти исполняемый файл [number_predictor.exe](https://drive.google.com/file/d/1h1PbQLfciJQZYhtF4bbkEOiOkuDJ2M_J/view?usp=drive_link)  (Google Drive)
 
 
 ---
@@ -69,4 +67,4 @@ Project_Number_predictor/
 
 ## GUI
 
-![GUI](image_app.jpg)
+<img src="image_app.jpg" alt="GUI" width="400"/>
