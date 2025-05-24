@@ -15,15 +15,6 @@ venv.bak/
 .mypy_cache/
 
 
-# Исключаем все файлы в папках баз данных, но оставляем сами папки
-/database/influxdb/*
-!/database/influxdb/.gitkeep
-
-/database/postgres/*
-!/database/postgres/.gitkeep
-
-/database/grafana/*
-!/database/grafana/.gitkeep
 
 # Byte-compiled / optimized / compiled Python files
 __pycache__/
